@@ -1,0 +1,62 @@
+body {
+    font-family: 'Consalas';
+    background: #edf7f6;
+
+}
+
+.about {
+    border-radius: 15px 15px 15px 15px;
+    color: white;
+    background: blue;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+img {
+    height: 200px;
+    padding: 20px;
+}
+
+.column {
+    float: left;
+    margin-right: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0px 2px 10px black;
+    padding: 10px;
+}
+
+.paragraph {
+    margin: 20px;
+    border-radius: 15px;
+    background: blue;
+    color: white;
+    padding: 15px;
+}
+
+.button {
+    background: red;
+    border-radius: 15px;
+    padding: 10px;
+    margin:40px;
+    width: 40vw;
+    font-size: 20px;
+}
+a:link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow
+}
