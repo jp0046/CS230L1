@@ -35,7 +35,7 @@ if(isset($_POST['login-submit'])){
                 session_start();
                 $_SESSION['uid']=$data['uid'];
                 $_SESSION['fname']=$data['fname'];
-                $_SESSION['username']=$data['username'];
+                $_SESSION['username']=$data['uname'];
                
                 header("Location: ../profile.php?login=Success");
                 exit();
