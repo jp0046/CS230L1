@@ -2,8 +2,8 @@
 
 $servename = "localhost";
 $DBuname = "root";
-$DBPass = "naruto21";
-$DBname = "cs230";
+$DBPass = "";
+$DBname = "CS230";
 
 $conn = mysqli_connect($servename, $DBuname, $DBPass, $DBname);
 
