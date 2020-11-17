@@ -2,7 +2,7 @@
 
 $servename = "localhost";
 $DBuname = "root";
-$DBPass = "naruto21";
+$DBPass = "";
 $DBname = "cs230";
 
 $conn = mysqli_connect($servename, $DBuname, $DBPass, $DBname);
@@ -42,3 +42,6 @@ if(mysqli_num_rows($result) > 0){
 else{
     echo '<h5 style="text-align: center;">No reviews, yet! Be the first to leave one!</h5>';
 }
+
+
+require 'includes/footer.php';

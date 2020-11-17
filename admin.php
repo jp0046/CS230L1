@@ -30,6 +30,7 @@ if (isset($_SESSION['uid'])) {
         </div>
     </div>
 
+  
 
     <?php 
 }else{
@@ -38,3 +39,4 @@ if (isset($_SESSION['uid'])) {
 }
 ?>
 </main>
+

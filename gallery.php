@@ -29,5 +29,9 @@ require 'includes/header.php';
         }
         ?>
     </div>
-
+    <div class= "container">
+        <form method="get" action="admin.php">
+            <button class= "btn btn-lg btn-secondary btn-block" type="submit">Add a Picture!</button>
+        </form>
+    </div>
 </main>

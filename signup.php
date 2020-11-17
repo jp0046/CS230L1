@@ -42,3 +42,6 @@ require "includes/header.php"
         </div>
     </div>
 </main>
+<?php
+require 'includes/footer.php';
+?>
