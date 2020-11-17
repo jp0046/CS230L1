@@ -44,4 +44,4 @@ else{
 }
 
 
-require 'includes/footer.php';
+

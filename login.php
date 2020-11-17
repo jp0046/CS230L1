@@ -15,16 +15,16 @@ require 'includes/header.php';
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block mx-auto" src="images/carousel1.jpg" alt="First slide"
+                        <img class="d-block mx-auto" src="images/i10.jpg" alt="First slide"
                             style="height: 250px; border-radius: 10%">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block mx-auto" src="images/carousel2.jpg" alt="Second slide"
-                            style="height: 250px; border-radius: 10%"">
+                        <img class="d-block mx-auto" src="images/i19.jpg" alt="Second slide"
+                            style="height: 250px; border-radius: 10%">
                   </div>
                   <div class=" carousel-item">
-                        <img class="d-block mx-auto" src="images/carousel3.jpg" alt="Third slide"
-                            style="height: 250px; border-radius: 10%"">
+                        <img class="d-block mx-auto" src="images/i15.jpg" alt="Third slide"
+                            style="height: 250px; border-radius: 10%">
                   </div>
                 </div>
                 <a class=" carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

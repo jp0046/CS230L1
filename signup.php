@@ -1,6 +1,7 @@
 <?php
 require "includes/header.php"
 ?>
+<link rel="stylesheet" href="css/signup.css">
 
 <main>
     <div class="bg-cover">

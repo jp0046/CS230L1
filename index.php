@@ -10,6 +10,8 @@ require 'includes/header.php';
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 <style>
 body,h1 {font-family: "Montserrat", sans-serif}
 img {margin-bottom: -7px}
@@ -20,15 +22,25 @@ img {margin-bottom: -7px}
 
 
 <!-- !PAGE CONTENT! -->
+
 <div class="w3-content" style="max-width:1500px">
 
 <!-- Header -->
+
 <div class="w3-opacity">
  
 <div class="w3-clear"></div>
 <header class="w3-center w3-margin-bottom">
-  <h1 style="padding-top: 30px"><b>Naruto Background Site</b></h1>
-  <p><b>Welcome, my name is Jordan Page and I am a huge naruto fan. I also love myself a good naruto background. I created <br>this site for users to upload their favorite backgrounds, and the community can rate/review them. <br> Create your own account <a href="signup.php"><i>here!</i> </a> </b></p>
+  <h1 style="padding-top: 20px"><b>Naruto Background Site</b></h1>
+  <p style="padding-bottom:20px"><b>Welcome, my name is Jordan Page and I am a huge naruto fan. I also love myself a good naruto background. I created <br>this site for users to upload their favorite backgrounds, and the community can rate/review them. <br> Get started by creating your own account <a href="signup.php"><i>here!</i> </a> </b></p>
+  <img src="images/uzumaki.png" alt="Uzumaki" style="position: absolute; top: 70px; left: 20px; height:50px">
+  <img src="images/uchiha.png" alt="Uchiha" style="position: absolute; top: 70px; left: 80px; height:48px">
+  <img src="images/seal.png" alt="Uzumaki" style="position: absolute; top: 70px; left: 140px; height:50px">
+  <img src="images/i2.png" alt="Uchiha" style="position: absolute; top: 70px; left: 200px; height:48px">
+  <img src="images/uzumaki.png" alt="Uzumaki" style="position: absolute; top: 70px; right: 20px; height:50px">
+  <img src="images/uchiha.png" alt="Uchiha" style="position: absolute; top: 70px; right: 80px; height:48px">
+  <img src="images/seal.png" alt="Uzumaki" style="position: absolute; top: 70px; right: 140px; height:50px">
+  <img src="images/i2.png" alt="Uchiha" style="position: absolute; top: 70px; right: 200px; height:48px">
   
 </header>
 </div>
@@ -66,6 +78,7 @@ img {margin-bottom: -7px}
 
 <!-- End Page Content -->
 </div>
+
 
 <?php
 require 'includes/footer.php';

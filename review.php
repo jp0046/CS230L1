@@ -28,6 +28,7 @@ require 'includes/review-helper.php';
                 </div>
             </form>
         </div>
+
     </div>
     <span id="review_list"></span>
 </main>

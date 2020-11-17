@@ -24,14 +24,14 @@ session_start();
     </script>
     <script src="https://kit.fontawesome.com/0809ee8fa6.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="../css/login.css">
+   
 
 </head>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="d-md-flex d-block flex-row mx-md-auto mx-0">
-            <a class="navbar-brand" href="#">Naruto</a>
+            <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="Naruto" style="position: absolute; left: 750px; top: 10px; height:35px" ></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

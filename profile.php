@@ -4,7 +4,7 @@ require 'includes/dbhandler.php';
 ?>
 
 <main>
-
+<link rel="stylesheet" href="css/login.css">
 <?php
 if (isset($_SESSION['uid'])) {
     $prof_user = $_SESSION['username'];
@@ -57,9 +57,9 @@ if (isset($_SESSION['uid'])) {
     </script>
 
 
-
-    <div class="h-100 center-me text-center">
-        <div class=my-auto>
+    <div class= "bg-cover">
+    <div class="h-100 center-me text-center" >
+        <div class="my-auto" style= "background: #DDDDDD; border-radius: 5%; padding: 10px" >
             <form action="includes/upload-helper.php" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
                     <img src="<?php echo $photo ?>" onclick="triggered();" id="prof-display">
@@ -73,12 +73,12 @@ if (isset($_SESSION['uid'])) {
                 </div>
                 <div class="form-group">
                     <button type="submit" name="prof-submit"
-                        class="btn btn-outline-success btn-lg btn-block">Upload</button>
+                        class="btn btn-outline-success btn-med btn-block">Upload Profile Picture</button>
                 </div>
             </form>
         </div>
     </div>
-
+</div>
 
     <?php
 
